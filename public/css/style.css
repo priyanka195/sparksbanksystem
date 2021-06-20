@@ -1,0 +1,86 @@
+body{
+    background-color: #f8eded;
+}
+/* navbar section */
+.navbar-custom{
+    background-color:#3a4df7;
+}
+.navbar{
+    border-bottom: 0 0 2.5rem;
+}
+.card{
+    text-align: center;
+    background-color: #fff5fd;
+}
+table {
+    table-layout: fixed;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td{
+      width: 25%;
+  }
+  
+  td, th {
+      color:#f7f8f8;
+    border: 1px solid #10b5df;
+    text-align: center;
+    padding: 4px;
+    font-size:medium    ;
+    
+  }
+  
+  tr:nth-child(even) {
+    background-color: #538bf1;
+  }
+
+  tr:nth-child(odd) {
+    background-color:#3a4df7;
+  }
+
+
+  /* features section*/
+.fas{
+  color:#3a4df7;
+}
+  #features{
+    position: relative;
+    text-align: center;
+  }
+  .feature-text{
+    color:rgb(14, 14, 14);
+      font-size: 2.0rem;
+  }
+  
+  .feature-box {
+    padding: 3%;
+  }
+  
+  .icon {
+    color: #3a4df7;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #7e5dd6;
+  }
+
+.form-example{
+  text-align: center;
+}
+.image{
+  background-image: url('/banks.jpg');
+  background-repeat: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+  }
+  .fa-home{
+    color:rgb(233, 235, 240);
+  }
+  
+
+    
